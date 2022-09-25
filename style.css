@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 20%;
+    margin: auto;
+    font-size : 18px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    background-color: hsl(216, 50%, 16%);
+    margin: 2rem 1rem;
+    padding: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;  
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0.75);  
+}
+
+.img{
+    border-radius: 10px; 
+    position: relative;
+}
+
+.img img{
+    width: 100%; 
+    display: block;   
+}
+
+.olho{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+}
+
+.olho img{
+   width: 50px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.img:hover .olho{
+    display: block;
+    cursor: pointer;   
+}
+
+.conteudo{   
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+h2{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+
+.informacao{
+    display: flex;
+    align-items: center; 
+}
+
+.ete{
+    padding-left: 5px;
+    color: hsl(178, 100%, 50%);
+}
+
+.relogio{
+    margin-left: 65px;
+}
+
+.dias{
+    margin-left: auto;
+    font-size: 17px;
+    font-weight: 100;
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    border-color: hsl(215, 51%, 70%);
+}
+
+.pessoa{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.avatar{
+    width: 40px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+h4{
+    font-size: 15px;
+    color:hsl(215, 51%, 70%) ;
+    margin-left: 20px;
+}
+
+strong{
+    color: white;
+    margin-left: 8px;
+    font-weight: 100;
+}
+
+strong:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
