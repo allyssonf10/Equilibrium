@@ -131,10 +131,22 @@ strong:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width:1440px){
     body{
-        width: 100%;
-        margin: 6px 0 0 0;
+        width: 26%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    body{
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 55%;
+        
     }
     
     .caixa{
@@ -149,6 +161,28 @@ strong:hover{
 
     .relogio{
         position: absolute;
-        left: 40%;
+        left: 46%;
+    }
+}
+
+@media screen and (max-width:425px){
+    body{
+        width: 90%;
+    }
+
+    .relogio{
+        position: absolute;
+        left: 39%;
+    }
+}
+
+@media screen and (max-width:375px){
+    body{
+        width: 90%;
+    }
+
+    .relogio{
+        position: absolute;
+        left: 31%;
     }
 }
