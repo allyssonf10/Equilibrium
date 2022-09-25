@@ -131,3 +131,24 @@ strong:hover{
     cursor: pointer;
 }
 
+@media screen and (max-width: 412px) {
+    body{
+        width: 100%;
+        margin: 6px 0 0 0;
+    }
+    
+    .caixa{
+        display: flex;
+    }
+    
+    img{
+        box-sizing: border-box;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .relogio{
+        position: absolute;
+        left: 40%;
+    }
+}
